@@ -9,13 +9,13 @@ const ApplicationInfo = () => {
         <div className="space-y-6">
           <div>
             <h4 className="font-medium text-gray-900 mb-2">Başvuru ve Ön Yazı Gönderim Tarihi</h4>
-            <p className="text-gray-600">19 Şubat - 2 Mart</p>
+            <p className="text-gray-600">24 Şubat - 9 Mart</p>
           </div>
 
           <div>
             <h4 className="font-medium text-gray-900 mb-2">Ön Yazı</h4>
             <p className="text-gray-600">
-              Yarışmacılar "Savaş ve İnsan Hakları" ana konusunu açıklayan en az 2.000 kelimelik bir metin hazırlamalıdır.
+              Yarışmacılar "Savaş ve İnsan Hakları" ana konusunu açıklayan en az 800 kelimelik bir metin hazırlamalıdır.
             </p>
           </div>
 
@@ -47,10 +47,10 @@ const ApplicationInfo = () => {
                 href="mailto:speachsince2024@gmail.com" 
                 className="font-medium text-blue-600 hover:text-blue-800 transition"
               >
-                speachsince2024@gmail.com
+                speachsince2025@gmail.com
               </a>{' '}
-              adresine <span className="font-medium">19 Şubat - 2 Mart</span> tarihleri arasında gönderebilir. 
-              Sonuçlar <span className="font-medium">10 Mart</span> tarihinde web sitesi üzerinden yayınlanacak 
+              adresine <span className="font-medium">24 Şubat - 9 Mart</span> tarihleri arasında gönderebilir. 
+              Sonuçlar <span className="font-medium">17 Mart</span> tarihinde web sitesi üzerinden yayınlanacak 
               ve yarışmacıların e-posta adresine bilgi gönderilecektir.
             </p>
           </div>

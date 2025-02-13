@@ -24,16 +24,16 @@ const SponsorCard: React.FC<SponsorCardProps> = ({ name, description }) => {
 const Thanks = () => {
   const sponsors = [
     {
-      name: 'Destekçi Logo 1',
-      description: 'Bu destekçimiz hakkında detaylı bilgi buraya gelecek. Katkıları ve destekleri için teşekkür ederiz.'
+      name: 'Sponsor Logo 1',
+      description: 'Sponsorun hakkında bilgisi buraya yazılacaktır. Katkıları ve destekleri için teşekkür ederiz.'
     },
     {
-      name: 'Destekçi Logo 2',
-      description: 'Bu destekçimiz hakkında detaylı bilgi buraya gelecek. Katkıları ve destekleri için teşekkür ederiz.'
+      name: 'Sponsor Logo 2',
+      description: 'Sponsorun hakkında bilgisi buraya yazılacaktır. Katkıları ve destekleri için teşekkür ederiz.'
     },
     {
-      name: 'Destekçi Logo 3',
-      description: 'Bu destekçimiz hakkında detaylı bilgi buraya gelecek. Katkıları ve destekleri için teşekkür ederiz.'
+      name: 'Sponsor Logo 3',
+      description: 'Sponsorun hakkında bilgisi buraya yazılacaktır. Katkıları ve destekleri için teşekkür ederiz.'
     }
   ];
 

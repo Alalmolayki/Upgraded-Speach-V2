@@ -1,4 +1,3 @@
-import React from 'react';
 import SectionTitle from '../components/ui/SectionTitle';
 
 const Announcements = () => {
@@ -7,7 +6,7 @@ const Announcements = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle 
           title="Duyurular"
-          subtitle="En Güncel Haberler ve Duyurular"
+          subtitle="Haberler ve Duyurular"
         />
         
         <div className="mt-12 space-y-8">
@@ -16,7 +15,7 @@ const Announcements = () => {
             <div className="text-sm text-gray-500 mb-2">12 Şubat 2025</div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Başvurular Başladı</h3>
             <p className="text-gray-600">
-              SPEACH 2025 başvuruları başlamıştır. Son başvuru tarihi 2 Mart 2025'tir.
+              SPEACH 2025 başvuruları başlamıştır. Son başvuru tarihi 9 Mart 2025'tir.
             </p>
           </div>
         </div>

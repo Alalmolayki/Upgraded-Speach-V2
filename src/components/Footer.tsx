@@ -1,5 +1,8 @@
 import React from 'react';
 import { Instagram, Twitter } from 'lucide-react';
+import logo from "/public/image/Speach_logo_beyaz.png";
+import school_logo from "/public/image/15tmz.png";
+
 
 interface FooterLinkProps {
   href: string;
@@ -8,7 +11,7 @@ interface FooterLinkProps {
   children: React.ReactNode;
 }
 
-const FooterLink: React.FC<FooterLinkProps> = ({ href, onClick, pageName, children }) => (
+const FooterLink: React.FC<FooterLinkProps> = ({ onClick, pageName, children }) => (
   <li>
     <button
       onClick={() => onClick(pageName)}
@@ -27,13 +30,14 @@ const Footer = ({ onPageChange }: { onPageChange: (page: string) => void }) => {
           {/* Logo Section */}
           <div className="flex flex-col items-center md:items-start">
             <div className="flex space-x-4 mb-4">
-              <div className="w-24 h-16 bg-gray-800 flex items-center justify-center rounded">
-                <span className="text-gray-400 text-xs">Okul Logo</span>
+              <div className="w-28 h-20 bg-gray-800 flex items-center justify-center rounded">
+                <span className="text-gray-400 text-xs"><img src={school_logo} alt="" /></span>
               </div>
-              <div className="w-24 h-16 bg-gray-800 flex items-center justify-center rounded">
-                <span className="text-gray-400 text-xs">SPEACH Logo</span>
+              <div className="w-28 h-20 bg-gray-800 flex items-center justify-center rounded">
+                <span className="text-gray-400 text-xs"><img src={logo} alt="" className='w-full h-full object-contain' /></span>
               </div>
             </div>
+            <span>SPEACH, 15 Temmuz Şehitleri AİHL'nin bir oluşumudur.</span>
           </div>
           
           {/* Quick Links Section */}
@@ -65,21 +69,21 @@ const Footer = ({ onPageChange }: { onPageChange: (page: string) => void }) => {
           <div className="text-center md:text-left">
             <h4 className="text-lg font-semibold mb-4">Sosyal Medya ve İletişim</h4>
             <div className="space-y-4">
-              <a href="#" className="flex items-center justify-center md:justify-start space-x-3 text-gray-400 hover:text-white transition">
+              <a href="https://www.instagram.com/speach_25?igsh=cTk1dTQzenV5MGI2" target='_blank' className="flex items-center justify-center md:justify-start space-x-3 text-gray-400 hover:text-white transition">
                 <Instagram size={20} />
-                <span>@speach2025</span>
+                <span>@speach_25</span>
               </a>
-              <a href="#" className="flex items-center justify-center md:justify-start space-x-3 text-gray-400 hover:text-white transition">
+              <a href="https://x.com/SPEACH_25?t=pD9bRtLR5wX77xKGn-g-bw&s=08" target='_blank' className="flex items-center justify-center md:justify-start space-x-3 text-gray-400 hover:text-white transition">
                 <Twitter size={20} />
-                <span>@speach2025</span>
+                <span>@SPEACH_25</span>
               </a>
-              <a href="mailto:school@example.com" 
+              <a href="mailto:info@aihl15temmuz.k12.tr" 
                  className="flex items-center justify-center md:justify-start text-gray-400 hover:text-white transition">
-                school@example.com
+                info@aihl15temmuz.k12.tr
               </a>
-              <a href="mailto:speachsince2024@gmail.com" 
+              <a href="mailto:speachsince2025@gmail.com" 
                  className="flex items-center justify-center md:justify-start text-gray-400 hover:text-white transition">
-                speachsince2024@gmail.com
+                speachsince2025@gmail.com
               </a>
             </div>
           </div>

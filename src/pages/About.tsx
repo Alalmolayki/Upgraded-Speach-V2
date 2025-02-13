@@ -22,14 +22,16 @@ const About = () => {
           <div className="bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-blue-600 mb-4">SPEACH Nedir?</h3>
             <p className="text-gray-700 leading-relaxed">
-              SPEACH, gençlerin hitabet ve liderlik becerilerini geliştirebilecekleri benzersiz bir hitabet yarışmasıdır.
+            SPEACH, gençlerin hitabet ve liderlik becerilerini geliştirip üç farklı dilde yarışmalarına imkân sunan benzersiz bir platformdur.
+
             </p>
           </div>
           
           <div className="bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-blue-600 mb-4">Misyonumuz</h3>
             <p className="text-gray-700 leading-relaxed">
-              Programımız, ortaöğretim kademesindeki öğrencilerimizin küresel konular bağlamında hem akademik ürün ortaya koyma hem de hitabet yeteneklerini geliştirme amacını taşımaktadır.
+            Platform, ortaöğretim kademesindeki öğrencilerimizin küresel konular bağlamında hem akademik ürünler ortaya koyma hem de hitabet yeteneklerine katkıda bulunup geliştirme amacı gütmektir.
+
             </p>
           </div>
           

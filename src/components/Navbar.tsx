@@ -51,10 +51,10 @@ const NavLinks = ({ onPageChange, currentPage }: { onPageChange: (page: string) 
 
 const SocialIcons = () => (
   <>
-    <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+    <a href="https://www.instagram.com/speach_25?igsh=cTk1dTQzenV5MGI2" target='_blank' className="text-gray-600 hover:text-blue-600 transition">
       <Instagram size={20} />
     </a>
-    <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+    <a href="https://x.com/SPEACH_25?t=pD9bRtLR5wX77xKGn-g-bw&s=08" target='_blank' className="text-gray-600 hover:text-blue-600 transition">
       <Twitter size={20} />
     </a>
   </>
