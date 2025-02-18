@@ -1,9 +1,10 @@
+import sertname from '/sertname.pdf';
 
 const ApplicationInfo = () => {
   return (
     <div className="max-w-4xl mx-auto mb-16 space-y-8">
       <a 
-        href="/sartname.pdf" 
+        href={sertname}
         download 
         className="block w-full bg-red-500/10 hover:bg-red-500/20 transition-colors p-6 rounded-lg border-2 border-red-500/20 text-center"
       >
