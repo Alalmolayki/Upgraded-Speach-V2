@@ -1,8 +1,19 @@
-import React from 'react';
 
 const ApplicationInfo = () => {
   return (
     <div className="max-w-4xl mx-auto mb-16 space-y-8">
+      <a 
+        href="/sartname.pdf" 
+        download 
+        className="block w-full bg-red-500/10 hover:bg-red-500/20 transition-colors p-6 rounded-lg border-2 border-red-500/20 text-center"
+      >
+        <h3 className="text-xl font-semibold text-red-700">
+          SPEACH 2025 HİTABET YARIŞMASI ŞARTNAMESİ
+        </h3>
+        <p className="text-red-600 mt-2">
+          Şartnameyi indirmek için tıklayınız
+        </p>
+      </a>
       <div className="bg-white p-8 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold text-blue-600 mb-6">Başvuru Detayları</h3>
         
